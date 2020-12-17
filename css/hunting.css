@@ -752,6 +752,7 @@ hr {
 
 .paginas a {
     text-decoration: none;
+    color: inherit;
 }
 
 .paginas .sequencia {
