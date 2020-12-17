@@ -794,11 +794,11 @@ hr {
     text-align: left;
 }
 
-.container>main>.content-cards-icons>.card-icons>.space>img {
+.container>main>.content-cards-icons>.card-icons>.cspace>img {
     border-radius: 50px;
-    width: 1000%;
-    max-width: 1000%;
-    min-width: 1000%;
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
     padding: 2%;
     align-items: center;
     justify-content: center;
