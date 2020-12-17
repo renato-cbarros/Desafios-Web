@@ -1089,6 +1089,107 @@ a {
 
 /*---------------------------------------------------------------------------------------------------*/
 
+/*-----------------------------------Contatos-------------------------------------*/
+
+.content-contatos {
+    margin-bottom: 5%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 40% 40%;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+    
+}
+
+.content-form-contatos {
+    color:  rgb(82, 81, 81);
+    font-family: sans-serif;
+    text-align: left;
+    justify-content: left;
+}
+.content-form-contatos>label{
+    font-family: sans-serif;
+}
+
+.contatos-tamanho>img{
+    border-radius: 10px;
+}
+
+.contatos-tamanho{
+    
+    margin-top: 20%;
+
+}
+
+.content-form-contatos{
+    
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+}
+
+textarea {
+    margin-top: 3%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    margin-bottom: 3%;
+    
+}
+textarea:focus {
+    outline: none !important;
+    border-style: solid !important;
+    border-color: rgb(255, 72, 0) !important;
+    background-color: white !important;
+    display: inline !important;
+}
+
+.button-contatos{
+    background-color: #e96d24;
+    color: white;
+}
+
+.facaoqueama{
+    width: 100%; 
+     height: 30rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.facaoqueama>img{
+    
+    filter: brightness(50%);
+}
+
+#oqueama>h3>em{
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 72, 0);
+    text-decoration-style: solid;
+}
+
+#oqueama{
+    font-family: sans-serif;
+    line-height: 15px;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 27px;
+        color: white;
+        position: absolute;
+        
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
 
 /*------Reset-Senha--------*/
 
@@ -1331,4 +1432,19 @@ a {
         margin-bottom: 15%;
     }
     /*-----------------------------------------*/
+
+    /*----------------@media contatos--------------*/
+    .content-contatos{
+        grid-template-columns: 70%;
+    }
+
+    .contatos-tamanho>img{
+        display: none;
+    }
+
+    #oqueama{
+        font-size: 22px;
+    }
+    
+    /*---------------------------------------------*/
 }
