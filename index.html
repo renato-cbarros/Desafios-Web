@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HUNTINGTI</title>
+    <link rel="stylesheet" type="text/css" href="css/hunting.css">
+    <script>
+        function showMenuCell() {
+            document.getElementById("main-index").style['display'] = 'grid';
+            document.getElementById("header-nav").style['display'] = 'none';
+            document.getElementById("itens-aside-menu").style['display'] = 'flex';
+            document.getElementById("body-iframe").style['grid-area'] = 'content';
+        }
+
+        function hidenMenuCell() {
+            document.getElementById("main-index").style['display'] = 'none';
+            document.getElementById("header-nav").style['display'] = 'flex';
+            document.getElementById("itens-aside-menu").style['display'] = 'none';
+            document.getElementById("main-index").style['display'] = 'block';
+        }
+    </script>
+</head>
+
+
+<body>
+
+    <div class="container-index">
+        <header class="header-index">
+            <nav id="header-nav">
+                <img src="assets/logo.png">
+                <div class="menu-header-nav">
+                    <a class="btn-menu uderline-orange" href="html/home/home.html" target="body-iframe">HUNTINGTI</a>
+                    <a class="btn-menu uderline-orange" href="html/vagas/vagas.html" target="body-iframe">VAGAS</a>
+                    <a class="btn-menu uderline-orange" href="html/empresas/empresas.html" target="body-iframe">EMPRESAS</a>
+                    <a class="btn-menu uderline-orange" href="html/profissionais/profissionais.html" target="body-iframe">PROFISSIONAIS</a>
+                    <a class="btn-menu uderline-orange" href="#">CONTATO</a>
+                    <a class="btn-menu-btn border-orange" href="html/profissionais-login/profissionais-login.html" target="body-iframe">ENTRAR</a>
+                    <a class="btn-menu uderline-orange" href="#">In</a>
+                </div>
+
+                <div class="menu-header-nav-cel">
+                    <a onclick="showMenuCell()"><img src="assets/icon-list.png" width="25"></a>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <div id="main-index">
+                <div class="header-menu-cell"></div>
+                <aside class="menu-aside-cell">
+                    <div id="itens-aside-menu">
+                        <a onclick="hidenMenuCell()"><img src="assets/icon-exit.png" width="35" style="margin-left: 40%;"></a>
+                        <a class="btn-menu color-w uderline-white" href="html/home/home.html" target="body-iframe">HUNTINGTI</a>
+                        <a class="btn-menu color-w uderline-white" href="html/vagas/vagas.html" target="body-iframe">VAGAS</a>
+                        <a class="btn-menu color-w uderline-white" href="html/empresas/empresas.html" target="body-iframe">EMPRESAS</a>
+                        <a class="btn-menu color-w uderline-white" href="html/profissionais/profissionais.html" target="body-iframe">PROFISSIONAIS</a>
+                        <a class="btn-menu color-w uderline-white" href="#">CONTATO</a>
+                        <a class="btn-menu color-w uderline-white" href="html/profissionais-login/profissionais-login.html" target="body-iframe">ENTRAR</a>
+                        <a class="btn-menu color-w uderline-white" href="#">In</a>
+                    </div>
+                </aside>
+                <iframe id="body-iframe" name="body-iframe" src="html/home/home.html" width="100%" frameborder="0" style="height:100vh;"></iframe>
+                <div class="footer-menu-cell"></div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
