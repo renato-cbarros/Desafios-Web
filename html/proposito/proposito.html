@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propósito</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/hunting.css">
+
+    <script type="text/javascript">
+        function mostrar(hiden) {
+            if (document.getElementById("hiden").style['display'] == 'block') {
+                document.getElementById("hiden").style['display'] = 'none';
+            } else {
+                document.getElementById("hiden").style['display'] = 'block';
+            }
+        }
+
+        function mostrar2(hiden2) {
+            if (document.getElementById("hiden2").style['display'] == 'none') {
+                document.getElementById("hiden2").style['display'] = 'block';
+            } else {
+                document.getElementById("hiden2").style['display'] = 'none';
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <main>
+        <div class="content-informacoes-pessoais">
+
+            <aside class="content-aside-menu">
+                <h1>
+                    COMPLETE SEUS DADOS
+                </h1>
+                <ul style="list-style: none;">
+                    <li><a href="../profissionais-informacoes-pessoais/profissionais-informacoes-pessoais.html"
+                            target="body-iframe">Informações Pessoais <img src="imgs/icon-seta.png" width="30"></a></li>
+                    <li><a href="../informacoes-contato/informacoes-contato.html" target="body-iframe">Informações de
+                            Contato <img src="imgs/icon-seta.png" width="30"></a></li>
+                    <li><a href="../informacoes-profissionais/informacoes-profissionais.html" target="body-iframe">Informações Profissionais <img src="imgs/icon-seta.png" width="30"></a></li>
+                    <li><a href="proposito.html" target="body-iframe">Propósito <img src="imgs/icon-seta.png" width="30"></a></li>
+                    <li><a href="">Experiência Profissional <img src="imgs/icon-seta.png" width="30"></a></li>
+                </ul>
+            </aside>
+
+            <div></div>
+
+            <div class="content-form">
+                <h1>
+                    PROPÓSITOS
+                </h1>
+                <div class="divider-border"></div>
+
+                <form class="form-cadastro">
+                    <div class="field-one">
+                        <label>O que considera importante para sua carreira? *</label>
+                        <div class="field-two">
+                            <button class="button-white-form">Aumento Salarial</button>
+                            <button class="button-white-form">Qualidade de vida</button>
+                        </div>
+                        <div class="field-two">
+                            <button class="button-white-form">Desenvolvimento Pessoal</button>
+                            <button class="button-white-form">Mudança para outro país</button>
+                        </div>
+                        <div class="field-two">
+                            <button class="button-white-form">Horarios flexíveis</button>
+                            <button class="button-white-form">Crescimento Profissional</button>
+                        </div>
+                        <div class="field-two">
+                            <div class="input-btn">
+                                <input type="button" onclick="mostrar()" value="Outros" style="margin-left: 7%;"></input>
+                            </div>
+                            <div class="space"> </div>
+                            <div class="space"> </div>
+                            <div id="hiden">
+                                <label>Qual ?</label>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p></p>
+
+                    <div class="field-one">
+                        <label>Marque seus principais valores *</label>
+                        <div class="field-two">
+                            <button class="button-white-form">Ética</button>
+                            <button class="button-white-form">Inovação</button>
+                            <button class="button-white-form">Estabilidade</button>
+                            <button class="button-white-form">Autonomia</button>
+                        </div>
+                        <div class="field-two">
+                            <button class="button-white-form">Ambiente Colaborativo</button>
+                            <button class="button-white-form">Reconhecimento</button>
+                        </div>
+                        <div class="field-two">
+                            <button class="button-white-form">Desenvolvimento</button>
+                        </div>
+                        <div class="field-two">
+                            <div class="input-btn">
+                                <input type="button" onclick="mostrar2()" value="Outros" style="margin-left: 7%;"></input>
+                            </div>
+                            <div class="space"> </div>
+                            <div class="space"> </div>
+                            <div id="hiden2" style="display: none;">
+                                <label>Qual ?</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt-waring">
+                        <label>Dados obrigatórios *</label>
+                    </div>
+                    <div class="field-two">
+                        <div class="field-one">
+                            <div class="btn-next">
+                                <button class="button-white" style="width: 50%;">
+                                    << Anterior</button>
+                            </div>
+                        </div>
+                        <div class="field-one">
+                            <div class="btn-next">
+                                <button class="button-white" style="width: 50%;">Próxima >></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p></p>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+            <div class="footer-menu">
+                <div style="font-family: monospace; font-size: 14px;">NAVEGUE</div>
+                <p></p>
+                <div>HUNTINGTI</div>
+                <div>Vagas</div>
+                <div>Empresas</div>
+                <div>Profissionais</div>
+                <div>Entrar</div>
+            </div>
+            <div class="footer-contato">
+                <div style="font-family: monospace; font-size: 14px;">CONTANTO</div>
+                <p></p>
+                <div>+55 21 97277-4412 . 19 99153-8432</div>
+                <div>contato@huntingti.com</div>
+                <div>Av. Almirante Barroso, 81, Centro, RJ</div>
+                <div>Av. das Nações Unidas, 12901, Brooklin</div>
+                <div>Paulista, SP</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer-cpr">
+            © 2019 HUNTINGTI by 7MÍDIAS e Elevential Soluções Digitais
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

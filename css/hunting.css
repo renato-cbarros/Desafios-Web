@@ -374,7 +374,7 @@ body {
 /*---------------------------------------INFORMAÇÕES-PESSOAIS---------------------------------*/
 
 .content-informacoes-pessoais {
-    height: 1000px;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 30% 3% 55%;
